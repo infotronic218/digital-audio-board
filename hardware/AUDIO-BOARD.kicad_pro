@@ -329,7 +329,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "LibraryAudioBoard"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -418,6 +420,10 @@
     [
       "5942f19b-9c4c-4b0c-8e9c-1608ad5e1222",
       "Audio Codec"
+    ],
+    [
+      "a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3",
+      "PowerSupply"
     ]
   ],
   "text_variables": {}
