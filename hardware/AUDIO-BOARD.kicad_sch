@@ -361,24 +361,24 @@
     )
   )
 
-  (symbol (lib_id "1KiCadLib:SD-CARD-MEM2051-00-195-00-A") (at 229.87 119.38 0) (unit 1)
+  (symbol (lib_id "1KiCadLib:SD-CARD-MEM2051-00-195-00-A") (at 246.38 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ec2c594a-b1e4-414d-8c51-ff7fbb695b34)
-    (property "Reference" "J5" (id 0) (at 229.87 104.14 0))
-    (property "Value" "SD-CARD-MEM2051-00-195-00-A" (id 1) (at 229.87 106.68 0))
-    (property "Footprint" "1KiCadLib:SD-CARD-MEM2051-00-195-00-A" (id 2) (at 227.33 104.14 0)
+    (property "Reference" "J5" (id 0) (at 246.38 100.33 0))
+    (property "Value" "SD-CARD-MEM2051-00-195-00-A" (id 1) (at 246.38 102.87 0))
+    (property "Footprint" "1KiCadLib:SD-CARD-MEM2051-00-195-00-A" (id 2) (at 243.84 100.33 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.fr/ProductDetail/GCT/MEM2051-00-195-00-A?qs=KUoIvG%2F9Ilat7yfJRNWXUQ%3D%3D" (id 3) (at 229.87 105.41 0)
+    (property "Datasheet" "https://www.mouser.fr/ProductDetail/GCT/MEM2051-00-195-00-A?qs=KUoIvG%2F9Ilat7yfJRNWXUQ%3D%3D" (id 3) (at 246.38 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "GCT" (id 4) (at 229.87 119.38 0)
+    (property "Manufacturer" "GCT" (id 4) (at 246.38 115.57 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MPN" "MEM2051-00-195-00-A" (id 5) (at 226.06 97.79 0)
+    (property "MPN" "MEM2051-00-195-00-A" (id 5) (at 242.57 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "640-MEM20510019500A" (id 6) (at 224.79 100.33 0)
+    (property "Mouser" "640-MEM20510019500A" (id 6) (at 241.3 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bd647a21-2b57-4ef9-8825-003d259b1335))
@@ -542,6 +542,21 @@
     (path "/4dfb00d4-0dd6-44da-b915-393b822552b2"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/2b097f79-705d-49b6-af61-336b3a0337f5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/37329a78-8994-4a1f-8c13-a0274929a527"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/91e7bd5d-3ed4-494c-b6b0-e642be24bfd1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/cbc53a51-9b2d-4b0b-b990-0d5e86b29ced"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/e502b510-7a0a-4ada-954f-66e05aed12cc"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
+    )
     (path "/5942f19b-9c4c-4b0c-8e9c-1608ad5e1222/263fa403-79b6-43fa-b2d9-5b6258649f66"
       (reference "C1") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -598,6 +613,12 @@
     )
     (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/82829a84-93f1-41e4-ad98-7b919d200574/bfaf1e8f-ce52-4884-848e-0e380d843f94"
       (reference "C19") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0201_0603Metric")
+    )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/6653ffe0-879a-46f2-b1d1-34b0ce318aaa"
+      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/f4f41b56-17d1-47e1-9f78-609d3fae3725"
+      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/147dd775-4cc4-4eb0-9062-db391a89cbc9"
       (reference "J1") (unit 1) (value "CON_USB_GCT_USB4105_REVA") (footprint "1KiCadLib:CON_USB_GCT_USB4105_REVA")
@@ -671,11 +692,17 @@
     (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/82829a84-93f1-41e4-ad98-7b919d200574/c2bfa952-130c-4ee5-84d9-acf26b542e15"
       (reference "R10") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/4d24ff94-8066-4f90-93a1-a7d58b93e789"
+      (reference "R?") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/5942f19b-9c4c-4b0c-8e9c-1608ad5e1222/0b60ea01-ae0f-4e02-bff3-d925c5e3ae76"
       (reference "U1") (unit 1) (value "CS42L51-CNZ") (footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm")
     )
     (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/1de4d8ee-8d3c-41e8-84d8-d2673c0ec293"
       (reference "U2") (unit 1) (value "TLV73333PDBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3/f70b8b80-e64f-4df8-8566-bb2d71d72144"
+      (reference "U?") (unit 1) (value "MCP73831-2-OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
   )
 )
