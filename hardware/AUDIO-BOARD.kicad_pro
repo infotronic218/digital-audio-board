@@ -332,9 +332,7 @@
     "pinned_footprint_libs": [
       "LibraryAudioBoard"
     ],
-    "pinned_symbol_libs": [
-      "LibraryAudioBoard"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "AUDIO-BOARD.kicad_pro",
