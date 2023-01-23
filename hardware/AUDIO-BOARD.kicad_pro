@@ -428,10 +428,6 @@
     [
       "82829a84-93f1-41e4-ad98-7b919d200574",
       "PowerSelector"
-    ],
-    [
-      "30b83f62-3ba1-46b7-8569-c01437d8cdbb",
-      "STM32H7"
     ]
   ],
   "text_variables": {}
