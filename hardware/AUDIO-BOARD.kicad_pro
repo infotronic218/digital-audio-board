@@ -424,10 +424,6 @@
     [
       "a72be1e0-9af1-4c8b-a80a-e23a2ce6ded3",
       "PowerSupply"
-    ],
-    [
-      "82829a84-93f1-41e4-ad98-7b919d200574",
-      "PowerSelector"
     ]
   ],
   "text_variables": {}
