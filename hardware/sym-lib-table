@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "LibraryAudioBoard")(type "KiCad")(uri "${KIPRJMOD}/LibraryAudioBoard.kicad_sym")(options "")(descr ""))
 )
